@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Удивительная Россия - Путешествие по городам</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://bot.aimylogic.com/chatwidget/gid_po_muzeyam-1000259620-eDm/justwidget.js" async></script>
 </head>
 <body>
     <!-- Loader -->
@@ -378,6 +377,20 @@
         </p>
     </footer>
 
+    <!-- Aimylogic Chat Widget Container -->
+    <div id="aimylogic-widget-container"></div>
+    
+    <!-- Aimylogic Chat Widget - loaded dynamically -->
+    <script>
+        // Load aimylogic widget after DOM is ready
+        (function() {
+            var script = document.createElement('script');
+            script.src = 'https://bot.aimylogic.com/chatwidget/gid_po_muzeyam-1000259620-eDm/justwidget.js';
+            script.async = true;
+            document.body.appendChild(script);
+        })();
+    </script>
+    
     <script>
         // Hide loader
         window.addEventListener('load', () => {
