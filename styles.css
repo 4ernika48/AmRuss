@@ -1,7 +1,7 @@
 /* ============================================
-     Common Styles for Russian Cities Project
-     Consolidated from all HTML pages
-     ============================================ */
+      Common Styles for Russian Cities Project
+      Consolidated from all HTML pages
+      ============================================ */
 
 /* Reset & Base Styles */
 * {
@@ -18,8 +18,8 @@ body {
 }
 
 /* ============================================
-     Forest Background Animation
-     ============================================ */
+      Forest Background Animation
+      ============================================ */
 .forest-bg {
     position: fixed;
     top: 0;
@@ -74,8 +74,8 @@ body {
 }
 
 /* ============================================
-     Stars
-     ============================================ */
+      Stars
+      ============================================ */
 .stars {
     position: fixed;
     top: 0;
@@ -98,8 +98,8 @@ body {
 }
 
 /* ============================================
-     Header
-     ============================================ */
+      Header
+      ============================================ */
 header {
     min-height: 100vh;
     display: flex;
@@ -159,8 +159,8 @@ h1 {
 }
 
 /* ============================================
-     Top Navigation (used in index.html)
-     ============================================ */
+      Top Navigation (used in index.html)
+      ============================================ */
 .top-nav {
     position: fixed;
     top: 16px;
@@ -202,8 +202,8 @@ h1 {
 }
 
 /* ============================================
-     Sections
-     ============================================ */
+      Sections
+      ============================================ */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -253,8 +253,8 @@ h1 {
 }
 
 /* ============================================
-     Cards Grid
-     ============================================ */
+      Cards Grid
+      ============================================ */
 .cities-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -288,8 +288,8 @@ h1 {
 }
 
 /* ============================================
-     City Image with Parallax Support
-     ============================================ */
+      City Image with Parallax Support
+      ============================================ */
 .city-image {
     width: 100%;
     height: 260px;
@@ -326,8 +326,8 @@ h1 {
 }
 
 /* ============================================
-     Golden Ring Special Section
-     ============================================ */
+      Golden Ring Special Section
+      ============================================ */
 .golden-ring {
     background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(255, 140, 0, 0.1));
     border: 2px solid gold;
@@ -396,8 +396,8 @@ h1 {
 }
 
 /* ============================================
-     Features
-     ============================================ */
+      Features
+      ============================================ */
 .features {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -430,8 +430,8 @@ h1 {
 }
 
 /* ============================================
-     Footer
-     ============================================ */
+      Footer
+      ============================================ */
 footer {
     background: rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -446,8 +446,8 @@ footer {
 }
 
 /* ============================================
-     Aimylogic Chat Widget
-     ============================================ */
+      Aimylogic Chat Widget
+      ============================================ */
 /* Target all possible aimylogic widget elements */
 .aimylogic-widget,
 .aimylogic-chat,
@@ -498,8 +498,8 @@ body, html {
 }
 
 /* ============================================
-     Loading Animation
-     ============================================ */
+      Loading Animation
+      ============================================ */
 .loader {
     position: fixed;
     top: 0;
@@ -531,16 +531,82 @@ body, html {
 }
 
 /* ============================================
-     Responsive Styles
-     ============================================ */
+      Responsive Styles
+      ============================================ */
 @media (max-width: 768px) {
-    h1 { font-size: 2.5rem; }
-    .section-title { font-size: 2rem; }
+    h1 { font-size: 2rem; }
+    .subtitle { font-size: 1.1rem; }
+    .section-title { font-size: 1.5rem; }
     .cities-grid { grid-template-columns: 1fr; }
     .city-image {
-        height: 220px;
+        height: 180px;
     }
     .golden-ring h2 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+    .golden-ring-sub {
+        font-size: 1rem;
+    }
+    .city-name {
+        font-size: 1.2rem;
+    }
+    .city-description {
+        font-size: 0.85rem;
+    }
+    .feature h3 {
+        font-size: 1.1rem;
+    }
+    .feature p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile-specific fixes for top navigation */
+@media (max-width: 480px) {
+    .top-nav {
+        top: 8px;
+        padding: 0.4rem 0.6rem;
+        gap: 0.3rem;
+        max-width: 95%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        scrollbar-width: none;
+    }
+    
+    .top-nav::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .top-nav a {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.5rem;
+    }
+    
+    h1 { font-size: 1.6rem; }
+    .subtitle { font-size: 0.95rem; }
+    .section-title { font-size: 1.3rem; }
+    .about-text {
+        font-size: 1rem;
+    }
+    .scroll-indicator {
+        font-size: 1.5rem;
+    }
+    
+    .container {
+        padding: 2rem 1rem;
+    }
+    
+    .section {
+        margin-bottom: 3rem;
+    }
+    
+    .golden-ring {
+        padding: 1rem;
+    }
+    
+    .ring-city {
+        padding: 0.3rem 0.8rem;
+        font-size: 0.85rem;
     }
 }
