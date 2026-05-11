@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Астрахань - Город на Каспии</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-text">Загрузка...</div>
+    </div>
+
+    <!-- Forest Background -->
+    <div class="forest-bg">
+        <div class="stars" id="stars"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="fog"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <h1>🕌 Астрахань 🕌</h1>
+        <p class="subtitle">Город на Каспии</p>
+        <div class="scroll-indicator">⬇</div>
+    </header>
+
+    <!-- About Section -->
+    <div class="container">
+        <section class="section" id="about">
+            <h2 class="section-title">Добро пожаловать в Астрахань</h2>
+            <p class="about-text">
+                Астрахань — один из древнейших городов юга России, основанный в 1558 году 
+                на берегу великой реки Волги. Город расположен в дельте Волги, в 100 километрах 
+                от Каспийского моря, и является воротами в Прикаспийский регион.
+            </p>
+            <p class="about-text">
+                Астрахань — город удивительного культурного многообразия. Здесь переплелись 
+                православная и мусульманская культуры, русские и восточные традиции. 
+                Астраханский кремль — уникальный памятник русского зодчества, а многочисленные 
+                мечети напоминают о богатом татарском наследии.
+            </p>
+            <p class="about-text">
+                Сегодня Астрахань — это крупный промышленный и культурный центр, известный 
+                своими арбузами, осетровой икрой и лотосовыми полями. Город привлекает туристов 
+                своей уникальной природой, архитектурой и южным колоритом.
+            </p>
+        </section>
+
+        <!-- Features -->
+        <section class="section">
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🏛️</div>
+                    <h3>Астраханский кремль</h3>
+                    <p>Уникальный памятник русского зодчества XVI века</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🕌</div>
+                    <h3>Город мечетей</h3>
+                    <p>Уникальное переплетение православной и мусульманской культур</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌊</div>
+                    <h3>Дельта Волги</h3>
+                    <p>Уникальный природный заповедник с лотосовыми полями</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🐟</div>
+                    <h3>Икорная столица</h3>
+                    <p>Мировая столица осетровой икры</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Golden Ring Section -->
+        <section class="section golden-ring">
+            <h2>💫 Астрахань — Жемчужина Каспия 💫</h2>
+            <p class="golden-ring-sub">
+                Город, где Волга встречается с морем
+            </p>
+            <img class="golden-ring-image" 
+                 src="https://idemvmuzei.ru//storage/museum/3a/b8/87/19/d3/5d/0f/26/img1_akspic_ru_kreml_shpil_dostoprimechatelnost_nebo_turizm_2560x1440.jpg" 
+                 alt="Астраханский кремль">
+            <div class="ring-cities">
+                <div class="ring-city">Астрахань</div>
+                <div class="ring-city">Волгоград</div>
+                <div class="ring-city">Элиста</div>
+                <div class="ring-city">Махачкала</div>
+                <div class="ring-city">Ростов-на-Дону</div>
+                <div class="ring-city">Краснодар</div>
+            </div>
+        </section>
+
+        <!-- Main Attractions -->
+        <section class="section">
+            <h2 class="section-title">Главные достопримечательности</h2>
+            <div class="cities-grid">
+                <!-- Астраханский кремль -->
+                <div class="city-card">
+                    <img class="city-image" src="https://ethnomir.ru/upload/medialibrary/45c/1.jpg" alt="Астраханский кремль">
+                    <div class="city-content">
+                        <h3 class="city-name">🏛️ Астраханский кремль</h3>
+                        <p class="city-description">
+                            Уникальный памятник русского оборонного зодчества XVI века. 
+                            Белокаменные стены с 8 башнями, Успенский собор с золочёными 
+                            куполами и Троицкий монастырь — главные достопримечательности.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Успенский собор -->
+                <div class="city-card">
+                    <img class="city-image" src="https://media.istockphoto.com/id/637974892/ru/%D1%84%D0%BE%D1%82%D0%BE/uspensky-%D1%81%D0%BE%D0%B1%D0%BE%D1%80-%D0%B2-%D0%BE%D0%BC%D1%81%D0%BA-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F.jpg?s=612x612&w=0&k=20&c=qR9MXyl5mxpJjXbQwIhI19gSdYC7qexxi07Kq1TxCsE=" alt="Успенский собор">
+                    <div class="city-content">
+                        <h3 class="city-name">⛪ Успенский собор</h3>
+                        <p class="city-description">
+                            Главный храм Астраханского кремля, построенный в 1698–1710 годах. 
+                            Пятиглавый собор с великолепным иконостасом — шедевр русского 
+                            зодчества. В соборе находится усыпальница астраханских архиереев.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Белая мечеть -->
+                <div class="city-card">
+                    <img class="city-image" src="https://images.fooby.ru/2/13/39/5619197" alt="Белая мечеть">
+                    <div class="city-content">
+                        <h3 class="city-name">🕌 Белая мечеть</h3>
+                        <p class="city-description">
+                            Одна из старейших мечетей Астрахани, построенная в 1810 году. 
+                            Белоснежное здание с минаретом — символ мусульманской культуры 
+                            города. Мечеть действующая и открыта для посещения.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Лебединое озеро -->
+                <div class="city-card">
+                    <img class="city-image" src="https://arbuztoday.ru/wp-content/uploads/2025/05/IMG_20250511_165826_128.jpg" alt="Лебединое озеро">
+                    <div class="city-content">
+                        <h3 class="city-name">🦢 Лебединое озеро</h3>
+                        <p class="city-description">
+                            Любимое место отдыха горожан в центре Астрахани. 
+                            Озеро с фонтаном, где живут белые лебеди. 
+                            Рядом находится памятник поэту Мусе Джалилю.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Набережная Волги -->
+                <div class="city-card">
+                    <img class="city-image" src="https://vis.ru/upload/resize_cache/webp/resize_cache/iblock/35f/pgltcbzbhdghgg7s8o43ovbgyc39p5qt/680_412_2/Naberezhnaya-r.-Volgi_-g.-Astrakhan4.webp" alt="Набережная Волги">
+                    <div class="city-content">
+                        <h3 class="city-name">🌊 Набережная Волги</h3>
+                        <p class="city-description">
+                            Главная прогулочная аллея Астрахани с фонтанами, 
+                            скамейками и красивыми видами на Волгу. 
+                            Протяжённость набережной — более 2 километров.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Музей арбуза -->
+                <div class="city-card">
+                    <img class="city-image" src="https://i2021.otzovik.com/2021/11/07/12641494/img/239088_79087057.jpeg" alt="Музей арбуза">
+                    <div class="city-content">
+                        <h3 class="city-name">🍉 Музей арбуза</h3>
+                        <p class="city-description">
+                            Уникальный музей, посвящённый главному сельскохозяйственному 
+                            символу Астраханской области. Здесь можно узнать об истории 
+                            выращивания арбузов и попробовать разные сорта.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interesting Facts -->
+        <section class="section">
+            <h2 class="section-title">Интересные факты об Астрахани</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">📅</div>
+                    <h3>Год основания</h3>
+                    <p>Астрахань основана в 1558 году после взятия Казани и Астраханского ханства. Город стал южным форпостом России.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🕌</div>
+                    <h3>Город 100 мечетей</h3>
+                    <p>В Астрахани мирно соседствуют православные храмы и мусульманские мечети. В городе более 40 мечетей и 30 храмов.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌊</div>
+                    <h3>Дельта Волги</h3>
+                    <p>Дельта Волги — самая большая речная дельта в Европе. Здесь находится Астраханский заповедник с уникальной флорой и фауной.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌸</div>
+                    <h3>Лотосовые поля</h3>
+                    <p>В дельте Волги растут удивительные лотосы. Цветение лотосов (июль-август) привлекает тысячи туристов.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🐟</div>
+                    <h3>Икорная столица</h3>
+                    <p>Астрахань — мировая столица осетровой икры. Здесь находится крупнейшее в России производство чёрной икры.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🍉</div>
+                    <h3>Арбузная столица</h3>
+                    <p>Астраханские арбузы известны на всю Россию. Ежегодно проходит фестиваль «Астраханский арбуз».</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to Get There -->
+        <section class="section">
+            <h2 class="section-title">Как добраться до Астрахани</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">✈️</div>
+                    <h3>На самолёте</h3>
+                    <p>Международный аэропорт Астрахань (Нариманово). Рейсы из Москвы (2 часа), Санкт-Петербурга, Екатеринбурга, Казани.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚂</div>
+                    <h3>На поезде</h3>
+                    <p>Железнодорожный вокзал Астрахань-1. Поезда из Москвы (от 24 часов), Санкт-Петербурга, Волгограда, Ростова-на-Дону.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚗</div>
+                    <h3>На автомобиле</h3>
+                    <p>По трассе Р22 «Каспий» — расстояние от Москвы 1400 км (около 17 часов). Трасса через Волгоград.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚢</div>
+                    <h3>На теплоходе</h3>
+                    <p>Круизы по Волге и Каспийскому морю. Регулярные рейсы из Москвы, Нижнего Новгорода, Волгограда.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Time to Visit -->
+        <section class="section">
+            <h2 class="section-title">Когда лучше посетить Астрахань</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">☀️</div>
+                    <h3>Лето</h3>
+                    <p>Цветение лотосов (июль-август), фестиваль «Астраханский арбуз», экскурсии в дельту Волги, жаркая погода до +35°C.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🍂</div>
+                    <h3>Осень</h3>
+                    <p>Бархатный сезон, сбор арбузов и дынь, меньше туристов, уютные кафе.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">❄️</div>
+                    <h3>Зима</h3>
+                    <p>Мягкая зима, новогодние ярмарки, фестиваль «Астраханская рыбалка» и дегустация ухи.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌸</div>
+                    <h3>Весна</h3>
+                    <p>Пробуждение природы, цветение садов, Пасхальные праздники и фестиваль «Весенний калейдоскоп».</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-text">
+            🌟 Астрахань — жемчужина Каспия и ворота России на юг 🌟<br>
+            © 2026 Проект "Удивительная Россия ". Создано с любовью к городу на Волге.
+        </p>
+        <p style="margin-top: 1rem; color: #00ff87; font-size: 0.9rem;">
+            "Астрахань — город, где Волга встречается с Каспием"
+        </p>
+    </footer>
+
+    <script>
+        // Hide loader
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('hidden');
+            }, 1000);
+        });
+
+        // Create stars
+        const starsContainer = document.getElementById('stars');
+        for (let i = 0; i < 100; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.width = Math.random() * 3 + 'px';
+            star.style.height = star.style.width;
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.animationDelay = Math.random() * 3 + 's';
+            starsContainer.appendChild(star);
+        }
+
+        // Scroll animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Parallax effect for forest
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const trees = document.querySelectorAll('.tree');
+            trees.forEach((tree, index) => {
+                const speed = 0.5 + (index * 0.1);
+                tree.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+    </script>
+    <script src="parallax.js"></script>
+</body>
+</html>

@@ -1,0 +1,446 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Удивительная Россия - Путешествие по городам</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://bot.aimylogic.com/chatwidget/gid_po_muzeyam-1000259620-eDm/justwidget.js" async></script>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-text">Загрузка...</div>
+    </div>
+
+    <!-- Forest Background -->
+    <div class="forest-bg">
+        <div class="stars" id="stars"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="fog"></div>
+    </div>
+
+    <nav class="top-nav" aria-label="Навигация по разделам">
+        <a href="#about">О проекте</a>
+        <a href="#golden-ring">Золотое кольцо</a>
+        <a href="#cities">Города</a>
+        <a href="#why-travel">Почему путешествовать</a>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>🌲 Удивительная Россия 🏔️</h1>
+        <p class="subtitle">Путешествие по самым интересным городам нашей страны</p>
+        <div class="scroll-indicator">⬇</div>
+    </header>
+
+    <!-- About Section -->
+    <div class="container">
+        <section class="section" id="about">
+            <h2 class="section-title">Почему этот проект?</h2>
+            <p class="about-text">
+                Россия — это не просто самая большая страна в мире. Это бескрайние просторы, 
+                уникальная природа, богатейшая история и культура, которая формировалась веками. 
+                Каждый город — это отдельная вселенная со своей атмосферой, легендами и неповторимым очарованием.
+            </p>
+            <p class="about-text">
+                Мы создали этот проект, потому что верим: чтобы по-настоящему полюбить свою страну, 
+                нужно увидеть её разнообразие. От древних городов Золотого кольца до современных 
+                мегаполисов, от суровой сибирской тайги до субтропиков Сочи — каждая точка на карте 
+                России хранит свои секреты и ждёт, когда вы её откроете.
+            </p>
+            <p class="about-text">
+                Этот сайт — ваш путеводитель по удивительному миру российских городов. Здесь вы 
+                найдёте вдохновение для путешествий, практические советы и истории, которые 
+                заставят вас взглянуть на Россию по-новому.
+            </p>
+        </section>
+
+        <!-- Features -->
+        <section class="section">
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🏛️</div>
+                    <h3>История</h3>
+                    <p>Древние крепости, храмы и памятники архитектуры</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌄</div>
+                    <h3>Природа</h3>
+                    <p>Уникальные ландшафты от гор до морей</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎭</div>
+                    <h3>Культура</h3>
+                    <p>Театры, музеи и местные традиции</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🍴</div>
+                    <h3>Кухня</h3>
+                    <p>Гастрономические особенности каждого региона</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Golden Ring with Image -->
+        <section class="section golden-ring" id="golden-ring">
+            <h2>💫 Золотое Кольцо России 💫</h2>
+            <p class="golden-ring-sub">
+                Древние города, сохранившие уникальное культурное наследие
+            </p>
+            <!-- Новая картинка под заголовком -->
+            <img class="golden-ring-image" 
+                 src="https://reporters.live/wp-content/uploads/2026/01/image-118-1024x684.png" 
+                 alt="Золотое кольцо России карта">
+            <div class="ring-cities">
+                <a class="ring-city" href="vladimir.html">Владимир</a>
+                <a class="ring-city" href="suzdal.html">Суздаль</a>
+                <a class="ring-city" href="kostroma.html">Кострома</a>
+                <a class="ring-city" href="yaroslavl.html">Ярославль</a>
+                <a class="ring-city" href="rostov-veliky.html">Ростов Великий</a>
+                <a class="ring-city" href="pereslavl-zalessky.html">Переславль-Залесский</a>
+                <a class="ring-city" href="sergiev-posad.html">Сергиев Посад</a>
+                <a class="ring-city" href="ivanovo.html">Иваново</a>
+            </div>
+        </section>
+
+        <!-- Cities Grid -->
+        <section class="section" id="cities">
+            <h2 class="section-title">Города России</h2>
+            <div class="cities-grid">
+                <!-- Moscow -->
+                <a class="city-card city-link" href="moscow.html" aria-label="Открыть страницу города Москва">
+                    <img class="city-image" src="https://www.interactive-english.ru/imagesforsite/for-descriptions/red-square.jpg" alt="Москва Красная площадь">
+                    <div class="city-content">
+                        <h3 class="city-name">🏛️ Москва</h3>
+                        <p class="city-description">
+                            Столица России, город, где история встречается с современностью. 
+                            Красная площадь, Кремль, Третьяковская галерея и небоскрёбы 
+                            Москва-Сити — здесь каждый найдёт что-то своё.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- St. Petersburg -->
+                <a class="city-card city-link" href="saint-petersburg.html" aria-label="Открыть страницу города Санкт-Петербург">
+                    <img class="city-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/3f/49/dd/caption.jpg?w=600&h=500&s=1" alt="Санкт-Петербург Дворцовая площадь">
+                    <div class="city-content">
+                        <h3 class="city-name">🌉 Санкт-Петербург</h3>
+                        <p class="city-description">
+                            Северная столица, город белых ночей и разводных мостов. 
+                            Эрмитаж, Петергоф, каналы и мосты создают неповторимую 
+                            атмосферу европейской элегантности.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Kazan -->
+                <a class="city-card city-link" href="kazan.html" aria-label="Открыть страницу города Казань">
+                    <img class="city-image" src="https://ethnomir.ru/upload/medialibrary/7af/goroda_na_volge_kazan_2.jpg" alt="Казань Кремль">
+                    <div class="city-content">
+                        <h3 class="city-name">🕌 Казань</h3>
+                        <p class="city-description">
+                            Столица Татарстана, где переплетаются восточная и западная культуры. 
+                            Казанский Кремль, мечеть Кул-Шариф и древний город Булгар.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Yekaterinburg -->
+                <a class="city-card city-link" href="yekaterinburg.html" aria-label="Открыть страницу города Екатеринбург">
+                    <img class="city-image" src="https://pr-flat.ru/upload/medialibrary/4b2/4b2df0f9b17a9dcf12828c488e481f7d.jpg" alt="Екатеринбург город">
+                    <div class="city-content">
+                        <h3 class="city-name">🏔️ Екатеринбург</h3>
+                        <p class="city-description">
+                            Столица Урала, город на границе Европы и Азии. 
+                            Современная архитектура, богатая история и уникальная 
+                            уральская культура.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Sochi -->
+                <a class="city-card city-link" href="sochi.html" aria-label="Открыть страницу города Сочи">
+                    <img class="city-image" src="https://navigosha.com/pic/city/sochi.jpg" alt="Сочи морской вокзал">
+                    <div class="city-content">
+                        <h3 class="city-name">🌴 Сочи</h3>
+                        <p class="city-description">
+                            Жемчужина Черноморского побережья, город-курорт с 
+                            субтропическим климатом. Горы, море, Олимпийские объекты 
+                            и невероятная природа Кавказа.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Novosibirsk -->
+                <a class="city-card city-link" href="novosibirsk.html" aria-label="Открыть страницу города Новосибирск">
+                    <img class="city-image" src="https://static.alltime.ru/obj/article/image-blog/Novosibirsk/Novosibirsk_1.jpg" alt="Новосибирск театр оперы и балета">
+                    <div class="city-content">
+                        <h3 class="city-name">🌆 Новосибирск</h3>
+                        <p class="city-description">
+                            Третий по величине город России, столица Сибири. 
+                            Академгородок, театр оперы и балета, мост через Обь — 
+                            символ научной и культурной жизни.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Volgograd -->
+                <a class="city-card city-link" href="volgograd.html" aria-label="Открыть страницу города Волгоград">
+                    <img class="city-image" src="https://img.geliophoto.com/volgograd/00_volgograd.jpg" alt="Волгоград Родина-мать">
+                    <div class="city-content">
+                        <h3 class="city-name">🎖️ Волгоград</h3>
+                        <p class="city-description">
+                            Город-герой на берегах Волги. Мамаев курган, Родина-мать 
+                            зовёт! и память о великой Сталинградской битве.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Krasnoyarsk -->
+                <a class="city-card city-link" href="krasnoyarsk.html" aria-label="Открыть страницу города Красноярск">
+                    <img class="city-image" src="https://www.admkrsk.ru/assets/%D0%9C%D0%B5%D0%B4%D0%B8%D0%B0%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/%D0%9F%D0%BE%D0%B4%D1%81%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%20%D0%9A%D0%BE%D0%BC%D0%BC%D1%83%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%91%D0%BE%D0%BD%D0%B4%D0%B0%D1%80%D0%B5%D0%B2.jpg" alt="Красноярск">
+                    <div class="city-content">
+                        <h3 class="city-name">🏔️ Красноярск</h3>
+                        <p class="city-description">
+                            Город у подножия Саян, ворота в Сибирь. 
+                            Столбы, Енисей, мощная природа и суровая сибирская красота.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Vladivostok -->
+                <a class="city-card city-link" href="vladivostok.html" aria-label="Открыть страницу города Владивосток">
+                    <img class="city-image" src="https://cdn.forumvostok.ru/upload/medialibrary/d09/d09a266b52d7ebac0915f0f395b7ae64.jpg?1578905562337416" alt="Владивосток мост">
+                    <div class="city-content">
+                        <h3 class="city-name">🌊 Владивосток</h3>
+                        <p class="city-description">
+                            Город на Тихом океане, конечная точка Транссиба. 
+                            Мосты, сопки, морская кухня и особый дальневосточный характер.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Veliky Novgorod -->
+                <a class="city-card city-link" href="veliky-novgorod.html" aria-label="Открыть страницу города Великий Новгород">
+                    <img class="city-image" src="https://ic.pics.livejournal.com/dergachev_va/58474394/3891984/3891984_original.jpg" alt="Великий Новгород кремль">
+                    <div class="city-content">
+                        <h3 class="city-name">⛪ Великий Новгород</h3>
+                        <p class="city-description">
+                            Один из древнейших городов России, колыбель русской государственности. 
+                            Кремль, Софийский собор и берестяные грамоты.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Pskov -->
+                <a class="city-card city-link" href="pskov.html" aria-label="Открыть страницу города Псков">
+                    <img class="city-image" src="https://lifehacker.ru/wp-content/uploads/2023/11/Kuda-skhodit-i-chto-posmotret-v-Pskove_1699131857.jpg" alt="Псков Кремль">
+                    <div class="city-content">
+                        <h3 class="city-name">🏰 Псков</h3>
+                        <p class="city-description">
+                            Древний город-крепость на западе России. Псковский Кремль, 
+                            древние храмы и атмосфера средневековья.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Kostroma -->
+                <a class="city-card city-link" href="kostroma.html" aria-label="Открыть страницу города Кострома">
+                    <img class="city-image" src="https://airpano.ru/files/360video/vr-kostroma/images/image3.jpg" alt="Кострома Ипатьевский монастырь">
+                    <div class="city-content">
+                        <h3 class="city-name">🎪 Кострома</h3>
+                        <p class="city-description">
+                            Город на Волге, родина Ивана Сусанина. 
+                            Ипатьевский монастырь, торговые ряды и уютная атмосфера.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Lipetsk -->
+                <a class="city-card city-link" href="lipetsk.html" aria-label="Открыть страницу города Липецк">
+                    <img class="city-image" src="https://pics.livejournal.com/varandej/pic/003a2eh8" alt="Липецк площадь">
+                    <div class="city-content">
+                        <h3 class="city-name">🌳 Липецк</h3>
+                        <p class="city-description">
+                            Город в Черноземье, известный своими минеральными водами 
+                            и курортами. Зеленый город с богатой историей.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Perm -->
+                <a class="city-card city-link" href="perm.html" aria-label="Открыть страницу города Пермь">
+                    <img class="city-image" src="https://img.geliophoto.com/perm/00_perm.jpg" alt="Пермь театр оперы">
+                    <div class="city-content">
+                        <h3 class="city-name">🎨 Пермь</h3>
+                        <p class="city-description">
+                            Культурная столица Поволжья. Пермская опера, современный 
+                            стрит-арт и уникальная пермская культура.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Astrakhan -->
+                <a class="city-card city-link" href="astrakhan.html" aria-label="Открыть страницу города Астрахань">
+                    <img class="city-image" src="https://trip4you.ru/wp-content/uploads/2024/05/chto-posmotret-v-astrahani.png" alt="Астрахань Кремль">
+                    <div class="city-content">
+                        <h3 class="city-name">🐟 Астрахань</h3>
+                        <p class="city-description">
+                            Город на Волге у Каспийского моря. Астраханский Кремль, 
+                            лотосовые поля и знаменитая осетровая икра.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Ufa -->
+                <a class="city-card city-link" href="ufa.html" aria-label="Открыть страницу города Уфа">
+                    <img class="city-image" src="https://s11.stc.all.kpcdn.net/russia/wp-content/uploads/2025/02/ufa-vid-na-pamyatnik-yulaevu.jpg" alt="Уфа памятник Салавату Юлаеву">
+                    <div class="city-content">
+                        <h3 class="city-name">🌆 Уфа</h3>
+                        <p class="city-description">
+                            Столица Башкортостана, город на семи холмах. 
+                            Памятник Салавату Юлаеву, национальная кухня и гостеприимство.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Voronezh -->
+                <a class="city-card city-link" href="voronezh.html" aria-label="Открыть страницу города Воронеж">
+                    <img class="city-image" src="https://s0.rbk.ru/v6_top_pics/media/img/3/50/756793491198503.jpg" alt="Воронеж памятник Петру I">
+                    <div class="city-content">
+                        <h3 class="city-name">🦆 Воронеж</h3>
+                        <p class="city-description">
+                            Колыбель русского флота, город Петра I. 
+                            Корабль-музей Гото Предестинация и богатое культурное наследие.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Tver -->
+                <a class="city-card city-link" href="tver.html" aria-label="Открыть страницу города Тверь">
+                    <img class="city-image" src="https://www.advantour.com/russia/images/tver/tver.jpg" alt="Тверь набережная">
+                    <div class="city-content">
+                        <h3 class="city-name">🏛️ Тверь</h3>
+                        <p class="city-description">
+                            Город между Москвой и Петербургом. Императорский путевой дворец, 
+                            набережная Степана Разина и литературные традиции.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Why Travel Section -->
+        <section class="section" id="why-travel">
+            <h2 class="section-title">Почему стоит путешествовать по России?</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">💰</div>
+                    <h3>Доступность</h3>
+                    <p>Не нужно визы, можно путешествовать на поезде, машине или самолёте</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🗺️</div>
+                    <h3>Разнообразие</h3>
+                    <p>11 часовых поясов, от арктических пустынь до субтропиков</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">👥</div>
+                    <h3>Гостеприимство</h3>
+                    <p>Традиционное русское гостеприимство и радушие местных жителей</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Открытия</h3>
+                    <p>Каждый город — это новое открытие и незабываемые впечатления</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-text">
+            🌟 Создано с любовью к России 🌟<br>
+            © 2026 Удивительная Россия.
+        </p>
+        <p style="margin-top: 1rem; color: #00ff87; font-size: 0.9rem;">
+            "Путешествие в тысячу миль начинается с одного шага"
+        </p>
+    </footer>
+
+    <script>
+        // Hide loader
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('hidden');
+            }, 1000);
+        });
+
+        // Create stars
+        const starsContainer = document.getElementById('stars');
+        for (let i = 0; i < 100; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.width = Math.random() * 3 + 'px';
+            star.style.height = star.style.width;
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.animationDelay = Math.random() * 3 + 's';
+            starsContainer.appendChild(star);
+        }
+
+        // Scroll animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Parallax effect for forest
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const trees = document.querySelectorAll('.tree');
+            trees.forEach((tree, index) => {
+                const speed = 0.5 + (index * 0.1);
+                tree.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+    </script>
+    <script src="parallax.js"></script>
+</body>
+</html>

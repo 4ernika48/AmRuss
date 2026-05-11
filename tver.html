@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тверь - Город на Волге</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-text">Загрузка...</div>
+    </div>
+
+    <!-- Forest Background -->
+    <div class="forest-bg">
+        <div class="stars" id="stars"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="tree"></div>
+        <div class="fog"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <h1>🏛️ Тверь 🏛️</h1>
+        <p class="subtitle">Город на Волге</p>
+        <div class="scroll-indicator">⬇</div>
+    </header>
+
+    <!-- About Section -->
+    <div class="container">
+        <section class="section" id="about">
+            <h2 class="section-title">Добро пожаловать в Тверь</h2>
+            <p class="about-text">
+                Тверь — один из древнейших городов России, основанный в 1135 году. 
+                Расположенный на берегах великой реки Волги при впадении в неё реки Тверцы, 
+                город является важным культурным и промышленным центром Верхневолжья.
+            </p>
+            <p class="about-text">
+                Тверь — город с богатой историей, древняя столица Тверского княжества, которое 
+                в XIII–XV веках соперничало с Москвой за первенство на Руси. Здесь сохранились 
+                уникальные памятники архитектуры, а тверитяне хранят память о великом прошлом.
+            </p>
+            <p class="about-text">
+                Сегодня Тверь — это современный город с развитой промышленностью, культурной 
+                жизнью и богатыми литературными традициями. Город связан с именами великих 
+                писателей и поэтов — Афанасия Никитина, Михаила Салтыкова-Щедрина, 
+                Ильи Репина и многих других.
+            </p>
+        </section>
+
+        <!-- Features -->
+        <section class="section">
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🏛️</div>
+                    <h3>Древняя столица</h3>
+                    <p>Тверь — столица Тверского княжества, соперника Московского</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌊</div>
+                    <h3>Город на Волге</h3>
+                    <p>Расположен на берегах великой русской реки</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📚</div>
+                    <h3>Литературные традиции</h3>
+                    <p>Город связан с именами великих писателей и поэтов</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚂</div>
+                    <h3>Транспортный узел</h3>
+                    <p>Важнейший железнодорожный и автомобильный узел между Москвой и Петербургом</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Golden Ring Section -->
+        <section class="section golden-ring">
+            <h2>💫 Тверь — Жемчужина Верхневолжья 💫</h2>
+            <p class="golden-ring-sub">
+                Город на семи холмах
+            </p>
+            <img class="golden-ring-image" 
+                 src="https://fs.tonkosti.ru/sized/c1600x600/d2/po/d2poca9u3604occwcog8cwc0g.jpg" 
+                 alt="Императорский путевой дворец в Твери">
+            <div class="ring-cities">
+                <div class="ring-city">Тверь</div>
+                <div class="ring-city">Москва</div>
+                <div class="ring-city">Санкт-Петербург</div>
+                <div class="ring-city">Великий Новгород</div>
+                <div class="ring-city">Ярославль</div>
+                <div class="ring-city">Ржев</div>
+            </div>
+        </section>
+
+        <!-- Main Attractions -->
+        <section class="section">
+            <h2 class="section-title">Главные достопримечательности</h2>
+            <div class="cities-grid">
+                <!-- Императорский путевой дворец -->
+                <div class="city-card">
+                    <img class="city-image" src="https://avatars.mds.yandex.net/get-altay/18285113/2a0000019a4f838da06377c985bfb715b805/orig" alt="Императорский путевой дворец">
+                    <div class="city-content">
+                        <h3 class="city-name">👑 Императорский путевой дворец</h3>
+                        <p class="city-description">
+                            Главная архитектурная жемчужина Твери, построенный в 1763–1770 годах 
+                            по указу Екатерины II. Сегодня здесь находится Тверская областная 
+                            картинная галерея с богатой коллекцией живописи.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Памятник Афанасию Никитину -->
+                <div class="city-card">
+                    <img class="city-image" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/%D0%A2%D0%B2%D0%B5%D1%80%D1%8C._%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%90%D1%84%D0%B0%D0%BD%D0%B0%D1%81%D0%B8%D1%8E_%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B8%D0%BD%D1%831.jpg" alt="Памятник Афанасию Никитину">
+                    <div class="city-content">
+                        <h3 class="city-name">🧭 Памятник Афанасию Никитину</h3>
+                        <p class="city-description">
+                            Памятник знаменитому тверскому купцу и путешественнику, 
+                            совершившему «хождение за три моря» в Индию. 
+                            Установлен на набережной Волги в 1955 году.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Спасо-Преображенский собор -->
+                <div class="city-card">
+                    <img class="city-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/%D0%A1%D0%BE%D0%B1%D0%BE%D1%80_%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F_%D0%93%D0%BE%D1%81%D0%BF%D0%BE%D0%B4%D0%BD%D1%8F.jpg/960px-%D0%A1%D0%BE%D0%B1%D0%BE%D1%80_%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F_%D0%93%D0%BE%D1%81%D0%BF%D0%BE%D0%B4%D0%BD%D1%8F.jpg" alt="Спасо-Преображенский собор">
+                    <div class="city-content">
+                        <h3 class="city-name">⛪ Спасо-Преображенский собор</h3>
+                        <p class="city-description">
+                            Воссозданный главный храм Твери, построенный на месте древнего 
+                            собора XII века. Белокаменный собор с золочёными куполами — 
+                            символ духовного возрождения города.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Набережная Волги -->
+                <div class="city-card">
+                    <img class="city-image" src="https://i.pinimg.com/originals/f8/a7/d2/f8a7d20ba12f390aea3cf1951ee69046.jpg" alt="Набережная Волги">
+                    <div class="city-content">
+                        <h3 class="city-name">🌊 Набережная Волги</h3>
+                        <p class="city-description">
+                            Любимое место прогулок горожан и гостей Твери. 
+                            Отсюда открывается великолепный вид на великую реку, 
+                            старую часть города и Императорский дворец.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Обелиск Победы -->
+                <div class="city-card">
+                    <img class="city-image" src="https://upload.wikimedia.org/wikipedia/commons/0/09/%D0%9E%D0%B1%D0%B5%D0%BB%D0%B8%D1%81%D0%BA_%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B_%28%D0%BC%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA%29_15.jpg" alt="Обелиск Победы">
+                    <div class="city-content">
+                        <h3 class="city-name">🎖️ Обелиск Победы</h3>
+                        <p class="city-description">
+                            Монумент в честь победы в Великой Отечественной войне. 
+                            Высота обелиска — 45 метров. У подножия — Вечный огонь 
+                            и памятники героям-тверитянам.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Церковь Белая Троица -->
+                <div class="city-card">
+                    <img class="city-image" src="https://allmyworld.ru/wp-content/uploads/Tserkov-Belaya-Troitsa.jpg" alt="Церковь Белая Троица">
+                    <div class="city-content">
+                        <h3 class="city-name">⛪ Церковь Белая Троица</h3>
+                        <p class="city-description">
+                            Древнейший сохранившийся храм Твери, построенный в 1564 году. 
+                            Уникальный памятник древнерусского зодчества. 
+                            Интерьер украшен старинными фресками.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interesting Facts -->
+        <section class="section">
+            <h2 class="section-title">Интересные факты о Твери</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">📅</div>
+                    <h3>Первое упоминание</h3>
+                    <p>Тверь впервые упоминается в летописи в 1135 году. Город старше Москвы на 12 лет.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">👑</div>
+                    <h3>Тверское княжество</h3>
+                    <p>В XIII–XV веках Тверь была столицей Тверского княжества — главного соперника Москвы в борьбе за первенство на Руси.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🧭</div>
+                    <h3>Хождение за три моря</h3>
+                    <p>Тверской купец Афанасий Никитин первым из европейцев побывал в Индии (1468–1474 гг.) и описал своё путешествие в книге «Хождение за три моря».</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚂</div>
+                    <h3>Город на пути</h3>
+                    <p>Тверь расположена на Николаевской железной дороге между Москвой и Петербургом. Вокзал города — памятник архитектуры XIX века.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🏛️</div>
+                    <h3>Императорский дворец</h3>
+                    <p>Путевой дворец в Твери — один из лучших образцов русского классицизма. В нём останавливались все российские императоры.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📚</div>
+                    <h3>Литературная столица</h3>
+                    <p>В Твери жили и творили Илья Репин, Михаил Салтыков-Щедрин, Анна Ахматова, Осип Мандельштам и многие другие.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to Get There -->
+        <section class="section">
+            <h2 class="section-title">Как добраться до Твери</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🚂</div>
+                    <h3>На поезде</h3>
+                    <p>Скоростные поезда «Сапсан» и «Ласточка» из Москвы (1,5 часа) и Санкт-Петербурга (3 часа). Отличное сообщение.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚗</div>
+                    <h3>На автомобиле</h3>
+                    <p>По трассе М10 «Россия» — расстояние от Москвы 170 км (около 2 часов), от Санкт-Петербурга — 480 км (около 5 часов).</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚌</div>
+                    <h3>На автобусе</h3>
+                    <p>Регулярные рейсы из Москвы, Санкт-Петербурга, Великого Новгорода, Ржева, Вышнего Волочка.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">⛴️</div>
+                    <h3>На теплоходе</h3>
+                    <p>Круизы по Волге — живописный способ добраться до Твери. Регулярные рейсы из Москвы, Ярославля, Нижнего Новгорода.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Time to Visit -->
+        <section class="section">
+            <h2 class="section-title">Когда лучше посетить Тверь</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">☀️</div>
+                    <h3>Лето</h3>
+                    <p>Тёплая погода, прогулки по Волге, экскурсии по Императорскому дворцу, фестиваль «Тверская вече» и день города (в последнюю субботу июня).</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🍂</div>
+                    <h3>Осень</h3>
+                    <p>Золотая осень в парках, меньше туристов, уютные кафе и красивые виды на Волгу.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">❄️</div>
+                    <h3>Зима</h3>
+                    <p>Снежная сказка, новогодние ярмарки, катки и фестиваль «Тверские зимние забавы».</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌸</div>
+                    <h3>Весна</h3>
+                    <p>Пробуждение природы, ледоход на Волге, Пасхальные праздники и фестиваль «Тверская весна».</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-text">
+            🌟 Тверь — древняя столица Тверского княжества и жемчужина Верхневолжья 🌟<br>
+            © 2026 Проект "Удивительная Россия". Создано с любовью к городу на Волге.
+        </p>
+        <p style="margin-top: 1rem; color: #00ff87; font-size: 0.9rem;">
+            "Тверь — город, где Волга обретает величие"
+        </p>
+    </footer>
+
+    <script>
+        // Hide loader
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('hidden');
+            }, 1000);
+        });
+
+        // Create stars
+        const starsContainer = document.getElementById('stars');
+        for (let i = 0; i < 100; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.width = Math.random() * 3 + 'px';
+            star.style.height = star.style.width;
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.animationDelay = Math.random() * 3 + 's';
+            starsContainer.appendChild(star);
+        }
+
+        // Scroll animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Parallax effect for forest
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const trees = document.querySelectorAll('.tree');
+            trees.forEach((tree, index) => {
+                const speed = 0.5 + (index * 0.1);
+                tree.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+    </script>
+    <script src="parallax.js"></script>
+</body>
+</html>
+
+
+
